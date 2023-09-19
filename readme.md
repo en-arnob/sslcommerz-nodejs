@@ -85,6 +85,8 @@ app.get('/validate', (req, res) => {
     });
 }) 
 ```
+### IPN Grab Params
+status, tran_date. tran_id, amount, val_id, store_amount, card_type, card_no, card_brand, currency, card_issuer
 
 ### To initiate a refund through API
 ```js
